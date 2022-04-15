@@ -7,6 +7,10 @@ def main():
     newDir = input()
     
 # TODO: store error messages w/ conditionals
+    err = {'Error: Directory does not exist': '',
+           'Syntax Error: Please enter a valid Windows file path': ''
+            }
+
 
 # TODO: loop through error messages and conditionals
 
