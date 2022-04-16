@@ -1,33 +1,36 @@
 #!python3
-# dict_conditional.py -- UNFINISHED
-
-# create function to return error messages if the input is not an even number
+#
+# dict_conditional.py -- function to return error messages if the input is not an even number
+# 
+# store conditionals or regular expressions inside of a dictionary
+# loop through the dictionary and return an error message if the conditional
+# is true or if the regular expression returns a match
 
 import re
+from typing import Tuple
 
 def is_even_number(num: str) -> str:
 
     # store error messages in dict 
     error_messages = {
-    0: "Error: input must be a whole number",
-    1: "Error: input must be a whole number",
-    2: "Error: input is an odd number. Please enter even number",
-        }
-
-    # store conditionals in dict 
-    # match error_conditionals keys w/ error_messages keys
-    error_conditionals = {
-    0: True if not r'(\d+)(\.)(\d+)' else False,
-    1: True if r'[\.\^\$\*\+\?\{\}\[\]\\\|\(\)]' else False,
-    2: True if int(num) % 2 == 1 else False
+    "Error: input must be a whole number": 
+        r'[^0-9]',
+    "Error: input is an odd number. Please enter even number": 
+        r'[13579$]',
         }
 
     # use list comprehension in return statement
-    return [error_messages[key]
-                for key, value
-                in error_conditionals.items()
-                if value]
+    message = tuple(key
+        for key, value
+        in error_messages.items()
+        if re.search(value, num)
+        )
+    if message == ():
+        return 'Number is even'
+    else:
+        return message
 
 print('Please enter an even number.')
 print(is_even_number(input()))
+
 
