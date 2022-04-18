@@ -1,3 +1,6 @@
+#! python3
+# regex-tester.py -- a tool for testing and viewing simple regex objects
+
 import re
 
 def regex_test(string):
