@@ -18,9 +18,9 @@ def main(folder: str, prefix: str, number_of_files: int) -> str:
             + ("0" * (prefix_number_length - len(str(i)))) # add leading zeroes to the file numbers
             + str(i) 
             + ".txt", # .txt file extension
-            "x",    # creates new file if file does not exist
+            "x"    # creates new file if file does not exist
         )
-        return "Files added to " + folder + "the name " + prefix + ".txt"
+    return "Files added to " + folder + "the name " + prefix + ".txt"
 
 
 if __name__ == "__main__":
