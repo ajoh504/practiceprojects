@@ -11,17 +11,14 @@ class get_file_names:
         self.prefix = prefix
 
     def return_file_list(self) -> list:
-        return_list = []
-        for file in self.directory.glob(f"{self.prefix}*"):
-            return_list.append(str(file))
-        return return_list
+        return [str(file) for file in self.directory.glob(f"{self.prefix}*")]
 
 
 def main() -> None:
     class_object = get_file_names(
         Path(input("Enter a directory")), input('Enter a prefix, such as "spam"')
     )
-    class_object.return_file_list()
+    print(class_object.return_file_list())
 
 
 if __name__ == "__main__":
