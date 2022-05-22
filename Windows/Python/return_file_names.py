@@ -18,7 +18,7 @@ def main() -> None:
     class_object = get_file_names(
         Path(input("Enter a directory")), input('Enter a prefix, such as "spam"')
     )
-    print(class_object.return_file_list())
+    class_object.return_file_list()
 
 
 if __name__ == "__main__":
