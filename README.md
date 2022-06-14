@@ -11,6 +11,7 @@ A repository for programming practice projects
   * [gcd.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/gcd.py)
   * [indexOf.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/indexOf.py)
   * [is-even-number.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/is-even-number.py)
+  * [lcm.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/lcm.py)
   * [makeNumberedDirs.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/makeNumberedDirs.py)
   * [regex-tester.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/regex-tester.py)
   * [return_file_names.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/return_file_names.py)
