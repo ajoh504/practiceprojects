@@ -6,8 +6,8 @@ A repository for programming practice projects
 
 [Windows](https://github.com/ajoh504/Practice-Projects/tree/main/Windows)
 * [Python](https://github.com/ajoh504/Practice-Projects/tree/main/Windows/Python)
-  * [copy_files.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/copy_files.py) -- use shutil.copy() or shutil.copytree() to copy files or directories
-  * [create_blank_text_files.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/create_blank_text_files.py) -- Add blank .txt files to the specified folder and specify the prefix 
+  * [copy_files.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/copy_files.py) # Use shutil.copy() or shutil.copytree() to copy files or directories
+  * [create_blank_text_files.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/create_blank_text_files.py) # Add blank .txt files to the specified folder and specify the prefix 
   * [gcd.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/gcd.py) -- find the greatest common divisor of two numbers
   * [indexOf.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/indexOf.py) -- find the index of a given number, slow method
   * [is-even-number.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/is-even-number.py) -- return error message if the input is not an even number
