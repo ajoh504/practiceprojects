@@ -17,4 +17,4 @@ A repository for programming practice projects
   * [regex-tester.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/regex-tester.py) - Print simple regex patterns to the console
   * [return_file_names.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/return_file_names.py) - Return a list of file names from a given prefix in the specified directory
   * [threadingTimer.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/threadingTimer.py) - Create a timer that waits for user input. Timer stops if user is too slow
-  * [user-input-cd.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/user-input-cd.py) - Prompt user to change directories
+  * [userinputcd.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/user-input-cd.py) - Prompt user to change directories
