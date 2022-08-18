@@ -1,6 +1,6 @@
 #!python3
 #
-# is-even-number.py -- function to return error messages if the input is not an even number
+# is_even_number.py -- function to return error messages if the input is not an even number
 #
 # store conditionals or regular expressions inside of a dictionary
 # loop through the dictionary using list comprehension, return error message if not an even number
