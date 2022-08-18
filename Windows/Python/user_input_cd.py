@@ -1,5 +1,5 @@
 #!python3
-# user-input-cd.py -- Prompt user to change directories
+# user_input_cd.py -- Prompt user to change directories
 #
 # create main function to check for valid filepath 
 # change directories if path is valid
