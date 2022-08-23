@@ -5,6 +5,9 @@ namespace MBFConsoleCalculator
 {
     internal class Program
     {
+        // User inputs lumber width, height, and length. Program
+        // returns the dimensions converted to the thousand board
+        // foot (MBF)
         static void Main()
         {
             WriteLine("MBF Calculator");
