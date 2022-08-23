@@ -6,7 +6,7 @@ A repository for programming practice projects
 
 [Windows](https://github.com/ajoh504/Practice-Projects/tree/main/Windows)
 * [CSharp](https://github.com/ajoh504/practiceprojects/tree/main/Windows/CSharp)
-  * [MBFConsoleCalculator.cs](https://github.com/ajoh504/practiceprojects/blob/main/Windows/CSharp/MBFConsoleCalculator.cs) - User inputs the dimensions of a piece of lumber, and the program returns the dimensions converted to the thousand board foot (MBF)
+  * [MBFConsoleCalculator.cs](https://github.com/ajoh504/practiceprojects/blob/main/Windows/CSharp/MBFConsoleCalculator.cs) - Input lumber dimensions and return the dimensions converted to thousand board foot (MBF)
 * [Python](https://github.com/ajoh504/Practice-Projects/tree/main/Windows/Python)
   * [copy_files.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/copy_files.py) - Use shutil.copy() or shutil.copytree() to copy files or directories
   * [create_blank_text_files.py](https://github.com/ajoh504/Practice-Projects/blob/main/Windows/Python/create_blank_text_files.py) - Add blank .txt files to the specified folder and specify the prefix 
